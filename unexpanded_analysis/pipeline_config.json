@@ -1,0 +1,22 @@
+{
+    "input_directory": "/path/to/raw_images",
+    "output_directory": "/path/to/output",
+    "channels": {
+        "Stain1": 1,
+        "Stain2": 2,
+        "DNA": 3
+    },
+    "median_filter_radius": 20,
+    "gaussian_filter_radius": 10,
+    "cellpose_bash_script": "/path/to/run_cellpose_in_batches_for_pipeline.sh",
+    "use_cpsam": true,
+    "voxel_threshold": 25000,
+    "sphericity_threshold": 0.55,
+    "plotting_script": "/path/to/plot_intensity_results_and_stats.py",
+    "use_background_subtraction": true,
+    "background_image_path": "/path/to/background_image.tif",
+    "use_secondary_background_subtraction": true,
+    "correlation_channels": {"channel1": "DNA", "channel2": "Signal1"},
+    "correlation_plotting_script": "/path/to/plot_correlations.py",
+    "control_condition_substring": "WT"
+}
