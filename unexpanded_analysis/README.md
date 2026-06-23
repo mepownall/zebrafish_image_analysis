@@ -112,6 +112,28 @@ Before running the pipeline, update all paths in the configuration file to match
 
 All downstream processing is launched automatically through the configuration file.
 
+## Example Configuration
+
+An example configuration file (`pipeline_config.json`) is included.
+
+Before running the pipeline, update:
+
+- `input_directory`
+
+- `output_directory`
+
+- `cellpose_bash_script`
+
+- `plotting_script`
+
+- `background_image_path`
+
+- `correlation_plotting_script`
+
+to match your local installation.
+
+Channel names should correspond to the entries defined in the `channels` section.
+
 ---
 
 ## Cellpose Model
