@@ -88,7 +88,7 @@ to match your local installation.
 
 ## Nucleus Segmentation
 
-#### `segment_with_2_5D_unet_volume_norm.py`
+#### `segment_with_unet.py`
 
 Performs nucleus segmentation using a trained 2.5D U-Net model.
 
