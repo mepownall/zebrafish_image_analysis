@@ -164,7 +164,7 @@ chmod +x run_cellpose_in_batches_for_pipeline.sh
 
 ```bash
 
-python unexpanded_image_processing_pipeline.py config.json
+python unexpanded_image_processing_pipeline.py pipeline_config.json
 
 ```
 
