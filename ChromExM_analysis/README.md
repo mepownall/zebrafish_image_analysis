@@ -74,6 +74,16 @@ Configuration file defining:
 - Imaging channels
 - Pipeline parameters
 
+- Before running the pipeline, update:
+- 
+- input_directory
+- output_directory
+- nuclei_unet_script
+- nuclei_unet_model
+- background_image_path
+
+to match your local installation.
+
 ---
 
 ## Nucleus Segmentation
