@@ -4,7 +4,7 @@
     "channels": {
         "DNA": 1
     },
-    "nuclei_unet_script":"/path/to/segment_with_2-5D_u-net_volume-norm.py" ,
+    "nuclei_unet_script":"/path/to/segment_with_u-net.py" ,
     "nuclei_unet_model":"/path/to/unet25d_model.pt",
     "use_background_subtraction": true,
     "background_image_path": "/path/to/background_image.ome.tif"
