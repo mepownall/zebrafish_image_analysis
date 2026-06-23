@@ -26,15 +26,15 @@ The pipeline performs:
 
 ## Scripts
 
-### `260125_unexpanded_image_processing_pipeline.py`
+### `unexpanded_image_processing_pipeline.py`
 
 Main analysis pipeline.
 
-### `260518_plot_intensity_results_and_stats_with_exclude_optionl.py`
+### `plot_intensity_results_and_stats.py`
 
 Generates statistical analyses, publication-quality plots, and PDF reports from quantification outputs.
 
-### `run_cellpose_in_batches_for_pipeline_250702_cellpose-sam_model_gpu5000_test.sh`
+### `run_cellpose_in_batches_for_pipeline.sh`
 
 Runs Cellpose-SAM segmentation using a pretrained model.
 
