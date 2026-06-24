@@ -15,5 +15,3 @@ The repository currently contains two primary workflows:
    - U-Net-based segmentation
    - Chromatin occupancy analysis
    - Autocorrelation analysis
-   - Bleach correction
-   - Extended z-stack stitching
