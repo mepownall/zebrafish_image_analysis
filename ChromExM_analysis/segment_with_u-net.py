@@ -40,7 +40,7 @@ import torch
 from tifffile import imread, imwrite
 from scipy.ndimage import gaussian_filter, binary_fill_holes, label
 
-from customunet_ResASPP_25D import UNetResASPP
+from unet_resaspp_25d import UNetResASPP
 
 # ------------------------------
 # Performance settings
