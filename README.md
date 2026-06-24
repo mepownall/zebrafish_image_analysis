@@ -1,4 +1,4 @@
-# zebrafish_image_analysis_public
+# zebrafish_image_analysis
 Image analysis pipelines for quantitative analysis of zebrafish embryo ChromExM and diffraction-limited microscopy datasets
 
 This repository contains image-analysis pipelines for quantitative analysis of zebrafish embryo ChromExM and diffraction-limited microscopy datasets.
