@@ -516,7 +516,6 @@ def run_nuclei_unet(
         "python", nuclei_unet_script,
         "--input_dir", input_dir,
         "--output_dir", unet_out,
-        "--skip_overlays",
     ]
     if model_path:
         cmd += ["--model_path", model_path]
