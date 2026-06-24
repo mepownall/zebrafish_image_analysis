@@ -9,7 +9,7 @@ The repository currently contains two primary workflows:
    - Cellpose-based nuclear segmentation
    - Intensity quantification
    - Statistical analysis
-   - Correlation analysis
+
 
 2. Expanded image analysis
    - U-Net-based segmentation
